@@ -5,3 +5,84 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&display=swap');
+/*  font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+body {
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-right: 5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'DM Serif Display', serif;
+    line-height: 2rem;
+    color:  #2C303F;
+}
+
+p, input, button {
+    font-family: 'Roboto', sans-serif;
+    color:  #2C303F;
+    line-height: 1.5rem;
+   
+}
+
+nav {
+    width: auto;
+    border-top: 0.03rem solid lightgray;
+    border-bottom: 0.03rem solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: none;
+}
+
+nav > img {
+    width: 10rem;
+    padding-left: 1.5rem;
+}
+
+.ham-menu {
+    width: 2.5rem;
+    color: lightgray;
+    padding-right: 1.5rem;
+}
+
+header {
+    padding: 0 1rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    /* display: none; */
+    width: 15rem;
+}
+header h1 {
+    width: 15rem;
+}
+header input {
+    border: 0.03rem solid lightgray;
+    padding:0.5rem 0.5rem;
+}
+
+header button {
+    background-color:  #192592;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.sign-in {
+    text-align: center;
+    margin: -0.2rem;
+}
