@@ -14,9 +14,8 @@ nav grey: #5b5e6d;
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
-    padding-right: 5rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -46,12 +45,12 @@ nav ul {
 }
 
 nav > img {
-    width: 10rem;
+    width: 6rem;
     padding-left: 1.5rem;
 }
 
 .ham-menu {
-    width: 2.5rem;
+    width: 1.7rem;
     color: lightgray;
     padding-right: 1.5rem;
 }
@@ -63,15 +62,17 @@ header {
 }
 
 header img {
-    /* display: none; */
     width: 15rem;
+    order: 2;
+    padding: 3rem 0;
 }
 header h1 {
     width: 15rem;
 }
 header input {
-    border: 0.03rem solid lightgray;
+    border: 0.05rem solid lightgray;
     padding:0.5rem 0.5rem;
+    border-radius: 5px;
 }
 
 header button {
@@ -85,4 +86,48 @@ header button {
 .sign-in {
     text-align: center;
     margin: -0.2rem;
+}
+
+.grey-bg  {
+    background-color: #F4F3F4;
+    border-top: 0.03rem solid lightgray;
+    border-bottom: 0.03rem solid lightgray;
+}
+main h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+main button {
+    background-color: white;
+    color:  #192592;
+    padding: 0.5rem;
+    border-color:  #192592;
+    margin: 1rem 0;;
+    border-radius: 5px;
+}
+
+main img {
+    width: 10rem;
+    margin: auto;
+    padding: 2rem 0;
+    border-bottom:0.03rem solid #cecece;
+} 
+
+.lat {
+    width: 15rem;
+}
+
+main img:last-child {
+    border-bottom: none;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
